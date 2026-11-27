@@ -1,0 +1,29 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS system files
+.DS_Store
+
+# Raw and processed datasets
+data/raw/
+data/processed/
+
+# DuckDB database files
+*.duckdb
+*.duckdb.wal
+
+# Environment variables and secrets
+.env
+.env.*
+
+# VS Code settings
+.vscode/
